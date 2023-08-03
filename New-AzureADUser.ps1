@@ -2,7 +2,8 @@
 $AzAdPwdProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
 
 # Assign the password to the user
-# Must define a password that meet restrictions listed on https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-policy#azure-ad-password-policies
+# Must define a password that meet restrictions listed on
+# https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-policy#azure-ad-password-policies
 $AzAdPwdProfile.Password = "<StrongPassword>"
 
 
